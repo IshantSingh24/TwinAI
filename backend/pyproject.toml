@@ -1,0 +1,18 @@
+[project]
+name = "twinai-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faiss-cpu>=1.13.2",
+    "fastapi>=0.115.13",
+    "langchain>=0.3.26",
+    "langchain-community>=0.3.26",
+    "langchain-groq>=0.3.8",
+    "langchain-openai>=0.3.25",
+    "pydantic>=2.11.7",
+    "pypdf>=5.6.1",
+    "python-dotenv>=1.1.1",
+    "uvicorn>=0.34.3",
+]

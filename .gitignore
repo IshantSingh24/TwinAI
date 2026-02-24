@@ -1,0 +1,48 @@
+# === Ignore everything in root by default ===
+/*
+
+# === Only allow these ===
+!.gitignore
+!README.md
+!frontend/
+!backend/
+
+# === OS / Editor ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# === Environment ===
+.env
+.env.*
+
+# === Python / Backend ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+*.egg
+.uv/
+
+# FAISS vector store (rebuild with: uv run python app/ingest.py)
+backend/vectorstore/
+
+# === Node / Frontend ===
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# === Temp / generated ===
+.tmp/
+*.pdf
+credentials.json
+token.json
+desktop.ini
